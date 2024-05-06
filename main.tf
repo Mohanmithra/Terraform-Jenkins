@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "Jenkinspipe" {
   ami           = "ami-001843b876406202a" 
   instance_type = "t2.micro"
-  key_name      = "mohan"
+  key_name      = "testkey-1"
   tags = {
       Name = "TF-Instance"
   }
