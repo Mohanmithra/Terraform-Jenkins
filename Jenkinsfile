@@ -4,7 +4,7 @@ pipeline {
         booleanParam(name: 'autoApprove', defaultValue: false, description: 'Automatically run apply after generating plan?')
     } 
     environment {
-       AWS_DEFAULT_REFION = 'ap-southeast-2'      
+       AWS_DEFAULT_REGION = 'ap-southeast-2'      
         
     }
 
